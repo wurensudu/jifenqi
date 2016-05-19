@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C8189CF81CEDD56000CDF307 /* data.db in Resources */ = {isa = PBXBuildFile; fileRef = C8189CF71CEDD56000CDF307 /* data.db */; };
+		C8189CFE1CEDF75D00CDF307 /* ViewControllerhistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8189CFD1CEDF75D00CDF307 /* ViewControllerhistory.swift */; };
 		C86F7E9A1CED801700557D6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86F7E991CED801700557D6A /* AppDelegate.swift */; };
 		C86F7E9C1CED801700557D6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86F7E9B1CED801700557D6A /* ViewController.swift */; };
 		C86F7E9F1CED801700557D6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86F7E9D1CED801700557D6A /* Main.storyboard */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C8189CF71CEDD56000CDF307 /* data.db */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.db; sourceTree = "<group>"; };
+		C8189CFD1CEDF75D00CDF307 /* ViewControllerhistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerhistory.swift; sourceTree = "<group>"; };
 		C86F7E961CED801700557D6A /* jifenqi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jifenqi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C86F7E991CED801700557D6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C86F7E9B1CED801700557D6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +93,7 @@
 			children = (
 				C86F7ED01CED813C00557D6A /* SQLiteDB */,
 				C86F7EC71CED806A00557D6A /* libsqlite3.0.tbd */,
+				C8189CF71CEDD56000CDF307 /* data.db */,
 				C86F7E981CED801700557D6A /* jifenqi */,
 				C86F7EAD1CED801800557D6A /* jifenqiTests */,
 				C86F7EB81CED801800557D6A /* jifenqiUITests */,
@@ -116,6 +121,7 @@
 				C86F7EA21CED801700557D6A /* LaunchScreen.storyboard */,
 				C86F7EA51CED801700557D6A /* Info.plist */,
 				C86F7EC91CED809A00557D6A /* Bridging-Header.h */,
+				C8189CFD1CEDF75D00CDF307 /* ViewControllerhistory.swift */,
 			);
 			path = jifenqi;
 			sourceTree = "<group>";
@@ -256,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C86F7EA41CED801700557D6A /* LaunchScreen.storyboard in Resources */,
+				C8189CF81CEDD56000CDF307 /* data.db in Resources */,
 				C86F7EA11CED801700557D6A /* Assets.xcassets in Resources */,
 				C86F7E9F1CED801700557D6A /* Main.storyboard in Resources */,
 			);
@@ -287,6 +294,7 @@
 				C86F7ED51CED81A000557D6A /* SQLTable.swift in Sources */,
 				C86F7E9C1CED801700557D6A /* ViewController.swift in Sources */,
 				C86F7E9A1CED801700557D6A /* AppDelegate.swift in Sources */,
+				C8189CFE1CEDF75D00CDF307 /* ViewControllerhistory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,6 +521,7 @@
 				C86F7EC01CED801800557D6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C86F7EC11CED801800557D6A /* Build configuration list for PBXNativeTarget "jifenqiTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +530,7 @@
 				C86F7EC31CED801800557D6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C86F7EC41CED801800557D6A /* Build configuration list for PBXNativeTarget "jifenqiUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +539,7 @@
 				C86F7EC61CED801800557D6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
